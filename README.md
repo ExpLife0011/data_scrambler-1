@@ -3,23 +3,27 @@
 
 
 Source code license is The GNU General Public License v3.0
-If use these code to commercial software, that need to get my permition.
+If use these code to commercial software, that need to get my permission.
 
  publish on software site huajun:
  http://www.onlinedown.net/soft/730092.htm
  you can learn how to scramble complex structural webpages.
  
-If you don't accept license, don't download it.
+scramble function is open source, same as publish in huajun, but some detail code is not public,
+if you like open source, or you want to develop a bussiness software,please contact data_scrambler team(contact information listed below) 
 
 project is work on visual studio 2008/2010/2015
 
  build step:
  1. download and install bison:
+ 
     https://www.gnu.org/software/bison/
+ 
     download and install flex:
-	https://github.com/westes/flex/releases
-	
-	set execuatable file path of bison and flex to the %PATH% environment variable.
+    
+    https://github.com/westes/flex/releases
+    
+    set execuatable file path of bison and flex to the %PATH% environment variable.
  
  2. install and mysql5.7 connector or use open source mysql 5.7 version default:
     a) set the library directory of data_scrambler project to <mysql connect path>\lib
