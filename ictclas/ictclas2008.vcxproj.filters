@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{721308e0-3449-41fc-a2e9-a6ca50976f01}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61774876-816d-41a9-94a7-b3b38cf43067}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d1e689f2-2b3c-469e-b7e4-6239d1dec362}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Segment">
+      <UniqueIdentifier>{e98a477e-7b33-437e-85a1-6d74f492cdf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{93e252f6-4d01-46f6-b1a3-af4f9fa5b918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tag">
+      <UniqueIdentifier>{32dfb94c-de69-4dda-b412-3dd71b8083b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown">
+      <UniqueIdentifier>{7feb019c-2842-465e-a01f-f22cc3b4850c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Result">
+      <UniqueIdentifier>{1274ac25-8480-4f1d-83cd-77b569c6547c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ICTCLAS_Win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICTCLAS_WinDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment\DynamicArray.cpp">
+      <Filter>Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment\NShortPath.cpp">
+      <Filter>Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment\Queue.cpp">
+      <Filter>Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment\SegGraph.cpp">
+      <Filter>Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment\Segment.cpp">
+      <Filter>Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ContextStat.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Dictionary.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Tag\Span.cpp">
+      <Filter>Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="Unknown\UnknowWord.cpp">
+      <Filter>Unknown</Filter>
+    </ClCompile>
+    <ClCompile Include="Result\Result.cpp">
+      <Filter>Result</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ICTCLAS_Win.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICTCLAS_Win.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICTCLAS_WinDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment\DynamicArray.h">
+      <Filter>Segment</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment\NShortPath.h">
+      <Filter>Segment</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment\Queue.h">
+      <Filter>Segment</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment\SegGraph.h">
+      <Filter>Segment</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment\Segment.h">
+      <Filter>Segment</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ContextStat.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Dictionary.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag\Span.h">
+      <Filter>Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="Unknown\UnknowWord.h">
+      <Filter>Unknown</Filter>
+    </ClInclude>
+    <ClInclude Include="Result\Result.h">
+      <Filter>Result</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ICTCLAS_Win.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ICTCLAS_Win.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

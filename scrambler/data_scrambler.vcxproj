@@ -1,0 +1,1480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnicodeRelease|Win32">
+      <Configuration>UnicodeRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnicodeRelease|x64">
+      <Configuration>UnicodeRelease</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ECA5D75B-17D3-44F3-8424-02C5410E5789}</ProjectGuid>
+    <RootNamespace>html_maker_config</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command>bison --define=$(ProjectDir)\syntax\ha_parser.tab.h -o$(ProjectDir)\syntax\ha_parser.tab.cpp -d $(ProjectDir)\syntax\ha_parser.y
+flex -o$(ProjectDir)\syntax\ha_parser.cpp $(ProjectDir)\syntax\ha_parser.l
+</Command>
+    </PreBuildEvent>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\html_maker;..\html_maker_common;..\thirdparty\tinyxml;..\data_center;..\thirdparty\zlib;..\thirdparty\minizip;..\protobuf_src\src;..\protobuf_src\vsprojects;..\thirdparty\include;..\ictclas;.\libcef_dll\include;.\webkit;.\libcef_dll;.\ie_html_paint;.\syntax;.\ui;.\json;.\protect;.\xpath;..\sqlite;..\scramble_kernel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TEST_BROWSER_WORK=1;NOT_INCLUDE_WTL=1;__TEST_BROWSER__=1;USING_CEF_SHARED=1;_HA_PARSER_STATIC_LINK_=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>..\libs;$(OutDir);.\webkit\debug_bin;.\protect;..\thirdparty\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\html_maker;..\html_maker_common;..\thirdparty\tinyxml;..\data_center;..\thirdparty\zlib;..\thirdparty\minizip;..\protobuf_src\src;..\protobuf_src\vsprojects;..\thirdparty\include;..\ictclas;.\libcef_dll\include;.\webkit;.\libcef_dll;.\ie_html_paint;.\syntax;.\ui;.\json;.\protect;.\xpath;..\sqlite;..\scramble_kernel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TEST_BROWSER_WORK=1;__TEST_BROWSER__=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\protobuf;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>..\libs;$(OutDir);.\webkit\debug_bin;.\protect;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command>bison --define=$(ProjectDir)\syntax\ha_parser.tab.h -o$(ProjectDir)\syntax\ha_parser.tab.cpp -d $(ProjectDir)\syntax\ha_parser.y
+flex -o$(ProjectDir)\syntax\ha_parser.cpp $(ProjectDir)\syntax\ha_parser.l
+</Command>
+    </PreBuildEvent>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\html_maker;..\html_maker_common;..\thirdparty\tinyxml;..\data_center;..\thirdparty\zlib;..\thirdparty\minizip;..\protobuf_src\src;..\protobuf_src\vsprojects;..\thirdparty\include;..\ictclas;.\libcef_dll\include;.\webkit;.\libcef_dll;.\ie_html_paint;.\syntax;.\ui;.\json;.\protect;.\xpath;..\sqlite;..\scramble_kernel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOT_INCLUDE_WTL=1;TEST_BROWSER_WORK=1;__TEST_BROWSER__=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+      <ShowProgress>NotSet</ShowProgress>
+      <AdditionalLibraryDirectories>..\libs;$(OutDir);.\webkit\debug_bin;.\protect;..\thirdparty\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\html_maker;..\html_maker_common;..\thirdparty\tinyxml;..\data_center;..\thirdparty\zlib;..\thirdparty\minizip;..\protobuf_src\src;..\protobuf_src\vsprojects;..\thirdparty\include;..\ictclas;.\libcef_dll\include;.\webkit;.\libcef_dll;.\ie_html_paint;.\syntax;.\ui;.\json;.\protect;.\xpath;..\sqlite;..\scramble_kernel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TEST_BROWSER_WORK=1;__TEST_BROWSER__=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\protobuf;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>..\libs;$(OutDir);.\webkit\debug_bin;.\protect;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <PreBuildEvent>
+      <Command>bison --define=$(ProjectDir)\syntax\ha_parser.tab.h -o$(ProjectDir)\syntax\ha_parser.tab.cpp -d $(ProjectDir)\syntax\ha_parser.y
+flex -o$(ProjectDir)\syntax\ha_parser.cpp $(ProjectDir)\syntax\ha_parser.l
+</Command>
+    </PreBuildEvent>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\html_maker;..\html_maker_common;..\thirdparty\tinyxml;..\data_center;..\thirdparty\zlib;..\thirdparty\minizip;..\protobuf_src\src;..\protobuf_src\vsprojects;..\thirdparty\include;..\ictclas;.\libcef_dll\include;.\webkit;.\libcef_dll;.\ie_html_paint;.\syntax;.\ui;.\json;.\protect;.\xpath;..\sqlite;..\scramble_kernel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TEST_BROWSER_WORK=1;NOT_INCLUDE_WTL=1;__TEST_BROWSER__=1;USING_CEF_SHARED=1;_HA_PARSER_STATIC_LINK_=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>..\libs;$(OutDir);.\webkit\debug_bin;.\protect;..\thirdparty\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\html_maker;..\html_maker_common;..\thirdparty\tinyxml;..\data_center;..\thirdparty\zlib;..\thirdparty\minizip;..\protobuf_src\src;..\protobuf_src\vsprojects;..\thirdparty\include;..\ictclas;.\libcef_dll\include;.\webkit;.\libcef_dll;.\ie_html_paint;.\syntax;.\ui;.\json;.\protect;.\xpath;..\sqlite;..\scramble_kernel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TEST_BROWSER_WORK=1;__TEST_BROWSER__=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\protobuf;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>..\libs;$(OutDir);.\webkit\debug_bin;.\protect;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Link>
+      <AdditionalLibraryDirectories>..\libs;$(OutDir);.\webkit\debug_bin;.\protect;..\thirdparty\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\html_maker;..\html_maker_common;..\thirdparty\tinyxml;..\data_center;..\thirdparty\zlib;..\thirdparty\minizip;..\protobuf_src\src;..\protobuf_src\vsprojects;..\thirdparty\include;..\ictclas;.\libcef_dll\include;.\webkit;.\libcef_dll;.\ie_html_paint;.\syntax;.\ui;.\json;.\protect;.\xpath;..\sqlite;..\scramble_kernel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+    <Link>
+      <AdditionalLibraryDirectories>..\libs;$(OutDir);.\webkit\debug_bin;.\protect;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\html_maker;..\html_maker_common;..\thirdparty\tinyxml;..\data_center;..\thirdparty\zlib;..\thirdparty\minizip;..\protobuf_src\src;..\protobuf_src\vsprojects;..\thirdparty\include;..\ictclas;.\libcef_dll\include;.\webkit;.\libcef_dll;.\ie_html_paint;.\syntax;.\ui;.\json;.\protect;.\xpath;..\sqlite;..\scramble_kernel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="base64.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\html_maker\common_func.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="common_html_dlg.cpp" />
+    <ClCompile Include="data_analyze.cpp" />
+    <ClCompile Include="data_html_dlg.cpp" />
+    <ClCompile Include="data_list_dlg.cpp" />
+    <ClCompile Include="data_output_config_dlg.cpp" />
+    <ClCompile Include="data_scrambler.cpp" />
+    <ClCompile Include="doc_host_ui_handler.cpp" />
+    <ClCompile Include="dynamic_html_dlg.cpp" />
+    <ClCompile Include="error_process_dlg.cpp" />
+    <ClCompile Include="external_link.cpp" />
+    <ClCompile Include="html_action_post_process.cpp" />
+    <ClCompile Include="html_page_process_dlg.cpp" />
+    <ClCompile Include="html_view.cpp" />
+    <ClCompile Include="..\html_maker_common\html_xpath.cpp" />
+    <ClCompile Include="http_log_dlg.cpp" />
+    <ClCompile Include="http_request_send.cpp" />
+    <ClCompile Include="human_help_dlg.cpp" />
+    <ClCompile Include="ie_auto.cpp" />
+    <ClCompile Include="ie_cache.cpp" />
+    <ClCompile Include="..\html_maker_common\input_content.cpp" />
+    <ClCompile Include="input_content_select_dlg.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="locate_url_config_dlg.cpp" />
+    <ClCompile Include="Markup.cpp" />
+    <ClCompile Include="md5.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="odbc_io.cpp" />
+    <ClCompile Include="pipe_line.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="post_process_dlg.cpp" />
+    <ClCompile Include="reference_bak.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="scramble_list_dlg.cpp" />
+    <ClCompile Include="scrapy_dlg.cpp" />
+    <ClCompile Include="sql_conn_setting_dlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="text_output_dlg.cpp" />
+    <ClCompile Include="..\thirdparty\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\thirdparty\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\thirdparty\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\thirdparty\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="update.cpp" />
+    <ClCompile Include="update_dlg.cpp" />
+    <ClCompile Include="upload.cpp" />
+    <ClCompile Include="usage_intro_dialog.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="web_browser_window.cpp" />
+    <ClCompile Include="..\html_maker_common\webbrowser.cpp" />
+    <ClCompile Include="..\html_maker_common\webbrowser2.cpp" />
+    <ClCompile Include="welcome_dlg.cpp" />
+    <ClCompile Include="work_job.cpp" />
+    <ClCompile Include="xpath_compare_dlg.cpp" />
+    <ClCompile Include="..\html_maker_common\html_common.cpp" />
+    <ClCompile Include="html_script.cpp" />
+    <ClCompile Include="scrapy\scrapy_support.cpp" />
+    <ClCompile Include="local_config.cpp" />
+    <ClCompile Include="login_dlg.cpp" />
+    <ClCompile Include="user_reg.cpp" />
+    <ClCompile Include="..\data_center\AssyncNotification.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <StringPooling Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</StringPooling>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\data_center\base64.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <StringPooling Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</StringPooling>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\data_center\data_sender.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <StringPooling Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</StringPooling>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\data_center\HttpRequestSender.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <StringPooling Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</StringPooling>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\data_center\MailMsg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <StringPooling Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</StringPooling>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\data_center\md5_ex.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\data_center\smtpclient.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <StringPooling Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</StringPooling>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\data_center\Utility.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <StringPooling Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</StringPooling>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="data_scramble.pb.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\stubs\atomicops_internals_x86_msvc.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\io\coded_stream.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\stubs\common.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\descriptor.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\descriptor.pb.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\descriptor_database.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\dynamic_message.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\extension_set.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\extension_set_heavy.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\generated_message_reflection.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\generated_message_util.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\io\gzip_stream.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\compiler\importer.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\message.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\message_lite.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\stubs\once.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\compiler\parser.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\io\printer.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\reflection_ops.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\repeated_field.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\service.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\stubs\stringprintf.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\stubs\structurally_valid.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\stubs\strutil.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\stubs\substitute.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\text_format.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\io\tokenizer.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\unknown_field_set.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\wire_format.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\wire_format_lite.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\io\zero_copy_stream.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\io\zero_copy_stream_impl.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\protobuf_src\src\google\protobuf\io\zero_copy_stream_impl_lite.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ie_hook.cpp" />
+    <ClCompile Include="GridListCtrl.cpp" />
+    <ClCompile Include="InPlaceEdit.cpp" />
+    <ClCompile Include="mysql_conn.cpp" />
+    <ClCompile Include="syntax\ha_parser.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="syntax\ha_parser.tab.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="syntax\ha_parser_imp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="syntax\ha_script_parse.cpp" />
+    <ClCompile Include="..\html_maker_common\html_action.cpp">
+      <IgnoreStandardIncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</IgnoreStandardIncludePath>
+      <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</PreprocessSuppressLineNumbers>
+      <PreprocessKeepComments Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</PreprocessKeepComments>
+      <IgnoreStandardIncludePath Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">false</IgnoreStandardIncludePath>
+      <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">false</PreprocessSuppressLineNumbers>
+      <PreprocessKeepComments Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">false</PreprocessKeepComments>
+    </ClCompile>
+    <ClCompile Include="html_actions_config.cpp" />
+    <ClCompile Include="html_document.cpp" />
+    <ClCompile Include="..\html_maker_common\html_element_config.cpp" />
+    <ClCompile Include="html_event_handler.cpp" />
+    <ClCompile Include="xpath_edit_dlg.cpp" />
+    <ClCompile Include="linguish_process.cpp" />
+    <ClCompile Include="webkit\binding_test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\bytes_write_handler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\cefclient.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\cefclient_osr_dragdrop_win.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\cefclient_osr_widget_win.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\cefclient_win.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\client_app.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\client_app_delegates.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\client_handler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\client_handler_win.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\client_renderer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\client_switches.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\dialog_test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\osrenderer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\performance_test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\performance_test_tests.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\resource_util_win.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\scheme_test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\string_util.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\window_test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="webkit\window_test_win.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ie_html_paint\behavior_factory.cpp" />
+    <ClCompile Include="ie_html_paint\html_element_behavior.cpp" />
+    <ClCompile Include="ui\DragDropContainer.cpp" />
+    <ClCompile Include="ui\DragDropTreeCtrl.cpp" />
+    <ClCompile Include="ui\hyper_link.cpp" />
+    <ClCompile Include="OleRichEditCtrl.cpp" />
+    <ClCompile Include="json\json_reader.cpp" />
+    <ClCompile Include="json\json_value.cpp" />
+    <ClCompile Include="json\json_writer.cpp" />
+    <ClCompile Include="xpath\diff_match_patch_test_wstring.cpp" />
+    <ClCompile Include="plugin.cpp" />
+    <ClCompile Include="plugin_manage_dlg.cpp" />
+    <ClCompile Include="..\sqlite\SQLite.cpp" />
+    <ClCompile Include="..\sqlite\sqlite3.c" />
+    <ClCompile Include="sqlite_conn.cpp" />
+    <ClCompile Include="CustomTabCtrl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\html_maker_common\html_xpath.h" />
+    <ClInclude Include="html_action_post_process.h" />
+    <ClInclude Include="ie_auto.h" />
+    <ClInclude Include="ie_cache.h" />
+    <ClInclude Include="ie_hook.h" />
+    <ClInclude Include="pipe_line.h" />
+    <ClInclude Include="..\html_maker_common\webbrowser.h" />
+    <ClInclude Include="work_job.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="browser_dlg.h" />
+    <ClInclude Include="..\html_maker\common_func.h" />
+    <ClInclude Include="common_html_dlg.h" />
+    <ClInclude Include="data_analyze.h" />
+    <ClInclude Include="data_html_dlg.h" />
+    <ClInclude Include="data_list_dlg.h" />
+    <ClInclude Include="data_output_config_dlg.h" />
+    <ClInclude Include="data_scrambler.h" />
+    <ClInclude Include="doc_host_ui_handler.h" />
+    <ClInclude Include="dynamic_html_dlg.h" />
+    <ClInclude Include="err_code.h" />
+    <ClInclude Include="error_process_dlg.h" />
+    <ClInclude Include="external_link.h" />
+    <ClInclude Include="..\html_maker_common\html_common.h" />
+    <ClInclude Include="html_document.h" />
+    <ClInclude Include="html_page_process_dlg.h" />
+    <ClInclude Include="html_script_config.h" />
+    <ClInclude Include="html_script_config_dlg.h" />
+    <ClInclude Include="html_ui_customize.h" />
+    <ClInclude Include="html_view.h" />
+    <ClInclude Include="http_log_dlg.h" />
+    <ClInclude Include="http_request_send.h" />
+    <ClInclude Include="human_help_dlg.h" />
+    <ClInclude Include="..\html_maker_common\input_content.h" />
+    <ClInclude Include="locate_url_config_dlg.h" />
+    <CustomBuildStep Include="Markup.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <ClInclude Include="odbc_io.h" />
+    <ClInclude Include="post_process_dlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="scramble_list_dlg.h" />
+    <ClInclude Include="scrapy_dlg.h" />
+    <ClInclude Include="sql_conn_setting_dlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="text_output_dlg.h" />
+    <ClInclude Include="update.h" />
+    <ClInclude Include="update_dlg.h" />
+    <ClInclude Include="upload.h" />
+    <ClInclude Include="usage_intro_dialog.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="web_browser_window.h" />
+    <ClInclude Include="web_page_browser_manage.h" />
+    <ClInclude Include="..\html_maker_common\webbrowser2.h" />
+    <ClInclude Include="welcome_dlg.h" />
+    <ClInclude Include="xpath_compare_dlg.h" />
+    <ClInclude Include="xpath_edit_dlg.h" />
+    <ClInclude Include="scrapy\scrapy_support.h" />
+    <ClInclude Include="local_config.h" />
+    <ClInclude Include="login_dlg.h" />
+    <ClInclude Include="user_reg.h" />
+    <ClInclude Include="..\data_center\AssyncNotification.h" />
+    <ClInclude Include="..\data_center\base64.h" />
+    <ClInclude Include="..\data_center\CritSec.h" />
+    <ClInclude Include="..\data_center\data_sender.h" />
+    <ClInclude Include="..\data_center\data_sender_common.h" />
+    <ClInclude Include="..\data_center\HttpRequestSender.h" />
+    <ClInclude Include="..\data_center\MailMsg.h" />
+    <ClInclude Include="..\data_center\md5_ex.h" />
+    <ClInclude Include="..\data_center\Prefastdef.h" />
+    <ClInclude Include="..\data_center\smtpclient.h" />
+    <ClInclude Include="..\data_center\strconv.h" />
+    <ClInclude Include="..\data_center\Utility.h" />
+    <CustomBuildStep Include="data_scramble.pb.h" />
+    <ClInclude Include="GridListCtrl.h" />
+    <ClInclude Include="InPlaceEdit.h" />
+    <ClInclude Include="mysql_conn.h" />
+    <ClInclude Include="syntax\flexlexer.h" />
+    <ClInclude Include="syntax\ha_parser.tab.h" />
+    <ClInclude Include="syntax\ha_parser_imp.h" />
+    <ClInclude Include="syntax\ha_script_common.h" />
+    <ClInclude Include="syntax\ha_script_parse.h" />
+    <ClInclude Include="syntax\unistd.h" />
+    <ClInclude Include="..\html_maker_common\html_action.h" />
+    <ClInclude Include="..\html_maker_common\html_element_config.h" />
+    <ClInclude Include="html_element_prop_dlg.h" />
+    <ClInclude Include="html_event_handler.h" />
+    <ClInclude Include="linguish_process.h" />
+    <ClInclude Include="webkit\binding_test.h" />
+    <ClInclude Include="webkit\bytes_write_handler.h" />
+    <ClInclude Include="webkit\cefclient.h" />
+    <ClInclude Include="webkit\cefclient_osr_dragdrop_win.h" />
+    <ClInclude Include="webkit\cefclient_osr_widget_win.h" />
+    <ClInclude Include="webkit\client_app.h" />
+    <ClInclude Include="webkit\client_handler.h" />
+    <ClInclude Include="webkit\client_renderer.h" />
+    <ClInclude Include="webkit\client_switches.h" />
+    <ClInclude Include="webkit\dialog_test.h" />
+    <ClInclude Include="webkit\dragdrop_events.h" />
+    <ClInclude Include="webkit\osrenderer.h" />
+    <ClInclude Include="webkit\performance_test.h" />
+    <ClInclude Include="webkit\performance_test_setup.h" />
+    <ClInclude Include="webkit\resource.h" />
+    <ClInclude Include="webkit\resource_util.h" />
+    <ClInclude Include="webkit\scheme_test.h" />
+    <ClInclude Include="webkit\string_util.h" />
+    <ClInclude Include="webkit\window_test.h" />
+    <ClInclude Include="libcef_dll\include\cef_app.h" />
+    <ClInclude Include="libcef_dll\include\cef_auth_callback.h" />
+    <ClInclude Include="libcef_dll\include\cef_base.h" />
+    <ClInclude Include="libcef_dll\include\cef_browser.h" />
+    <ClInclude Include="libcef_dll\include\cef_browser_process_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_callback.h" />
+    <ClInclude Include="libcef_dll\include\cef_client.h" />
+    <ClInclude Include="libcef_dll\include\cef_command_line.h" />
+    <ClInclude Include="libcef_dll\include\cef_context_menu_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_cookie.h" />
+    <ClInclude Include="libcef_dll\include\cef_dialog_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_display_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_dom.h" />
+    <ClInclude Include="libcef_dll\include\cef_download_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_download_item.h" />
+    <ClInclude Include="libcef_dll\include\cef_drag_data.h" />
+    <ClInclude Include="libcef_dll\include\cef_drag_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_focus_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_frame.h" />
+    <ClInclude Include="libcef_dll\include\cef_geolocation.h" />
+    <ClInclude Include="libcef_dll\include\cef_geolocation_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_jsdialog_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_keyboard_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_life_span_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_load_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_menu_model.h" />
+    <ClInclude Include="libcef_dll\include\cef_origin_whitelist.h" />
+    <ClInclude Include="libcef_dll\include\cef_pack_resources.h" />
+    <ClInclude Include="libcef_dll\include\cef_pack_strings.h" />
+    <ClInclude Include="libcef_dll\include\cef_path_util.h" />
+    <ClInclude Include="libcef_dll\include\cef_print_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_print_settings.h" />
+    <ClInclude Include="libcef_dll\include\cef_process_message.h" />
+    <ClInclude Include="libcef_dll\include\cef_process_util.h" />
+    <ClInclude Include="libcef_dll\include\cef_render_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_render_process_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_request.h" />
+    <ClInclude Include="libcef_dll\include\cef_request_context.h" />
+    <ClInclude Include="libcef_dll\include\cef_request_context_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_request_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_resource_bundle_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_resource_handler.h" />
+    <ClInclude Include="libcef_dll\include\cef_response.h" />
+    <ClInclude Include="libcef_dll\include\cef_runnable.h" />
+    <ClInclude Include="libcef_dll\include\cef_sandbox_win.h" />
+    <ClInclude Include="libcef_dll\include\cef_scheme.h" />
+    <ClInclude Include="libcef_dll\include\cef_stream.h" />
+    <ClInclude Include="libcef_dll\include\cef_string_visitor.h" />
+    <ClInclude Include="libcef_dll\include\cef_task.h" />
+    <ClInclude Include="libcef_dll\include\cef_trace.h" />
+    <ClInclude Include="libcef_dll\include\cef_url.h" />
+    <ClInclude Include="libcef_dll\include\cef_urlrequest.h" />
+    <ClInclude Include="libcef_dll\include\cef_v8.h" />
+    <ClInclude Include="libcef_dll\include\cef_values.h" />
+    <ClInclude Include="libcef_dll\include\cef_version.h" />
+    <ClInclude Include="libcef_dll\include\cef_web_plugin.h" />
+    <ClInclude Include="libcef_dll\include\cef_xml_reader.h" />
+    <ClInclude Include="libcef_dll\include\cef_zip_reader.h" />
+    <ClInclude Include="libcef_dll\include\stdint.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_atomic_ref_count.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_atomicops.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_basictypes.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_bind.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_bind_helpers.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_build.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_callback.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_callback_forward.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_callback_helpers.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_callback_list.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_cancelable_callback.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_lock.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_logging.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_macros.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_move.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_platform_thread.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_ref_counted.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_scoped_ptr.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_string16.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_template_util.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_thread_checker.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_thread_collision_warner.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_trace_event.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_tuple.h" />
+    <ClInclude Include="libcef_dll\include\base\cef_weak_ptr.h" />
+    <ClInclude Include="libcef_dll\include\base\internal\cef_atomicops_x86_msvc.h" />
+    <ClInclude Include="libcef_dll\include\base\internal\cef_bind_internal.h" />
+    <ClInclude Include="libcef_dll\include\base\internal\cef_bind_internal_win.h" />
+    <ClInclude Include="libcef_dll\include\base\internal\cef_callback_internal.h" />
+    <ClInclude Include="libcef_dll\include\base\internal\cef_lock_impl.h" />
+    <ClInclude Include="libcef_dll\include\base\internal\cef_raw_scoped_refptr_mismatch_checker.h" />
+    <ClInclude Include="libcef_dll\include\base\internal\cef_thread_checker_impl.h" />
+    <ClInclude Include="libcef_dll\include\wrapper\cef_byte_read_handler.h" />
+    <ClInclude Include="libcef_dll\include\wrapper\cef_closure_task.h" />
+    <ClInclude Include="libcef_dll\include\wrapper\cef_helpers.h" />
+    <ClInclude Include="libcef_dll\include\wrapper\cef_message_router.h" />
+    <ClInclude Include="libcef_dll\include\wrapper\cef_stream_resource_handler.h" />
+    <ClInclude Include="libcef_dll\include\wrapper\cef_xml_object.h" />
+    <ClInclude Include="libcef_dll\include\wrapper\cef_zip_archive.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_app_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_auth_callback_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_base_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_browser_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_browser_process_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_callback_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_client_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_command_line_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_context_menu_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_cookie_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_dialog_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_display_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_dom_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_download_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_download_item_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_drag_data_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_drag_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_focus_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_frame_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_geolocation_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_geolocation_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_jsdialog_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_keyboard_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_life_span_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_load_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_menu_model_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_origin_whitelist_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_path_util_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_print_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_print_settings_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_process_message_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_process_util_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_render_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_render_process_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_request_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_request_context_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_request_context_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_request_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_resource_bundle_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_resource_handler_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_response_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_scheme_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_stream_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_string_visitor_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_task_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_trace_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_url_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_urlrequest_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_v8_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_values_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_web_plugin_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_xml_reader_capi.h" />
+    <ClInclude Include="libcef_dll\include\capi\cef_zip_reader_capi.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_export.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_logging_internal.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_ptr.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_string.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_string_list.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_string_map.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_string_multimap.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_string_types.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_string_wrappers.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_thread_internal.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_time.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_trace_event_internal.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_types.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_types_win.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_types_wrappers.h" />
+    <ClInclude Include="libcef_dll\include\internal\cef_win.h" />
+    <ClInclude Include="ie_html_paint\behavior.h" />
+    <ClInclude Include="ie_html_paint\behavior_factory.h" />
+    <ClInclude Include="ie_html_paint\behavior_handler.h" />
+    <CustomBuildStep Include="ie_html_paint\html_element_behavior.h" />
+    <ClInclude Include="ui\DragDropContainer.h" />
+    <ClInclude Include="ui\DragDropTreeCtrl.h" />
+    <ClInclude Include="ui\DragEventListener.h" />
+    <ClInclude Include="ui\hyper_link.h" />
+    <ClInclude Include="OleRichEditCtrl.h" />
+    <ClInclude Include="ui\tree_ex_common.h" />
+    <ClInclude Include="json\json_tool.h" />
+    <ClInclude Include="xpath\diff_match_patch.h" />
+    <ClInclude Include="plugin.h" />
+    <ClInclude Include="plugin_manage_dlg.h" />
+    <ClInclude Include="..\sqlite\SQLite.h" />
+    <ClInclude Include="..\sqlite\sqlite3.h" />
+    <ClInclude Include="..\sqlite\sqlite3ext.h" />
+    <ClInclude Include="sqlite_conn.h" />
+    <ClInclude Include="CustomTabCtrl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\browse.png" />
+    <None Include="res\data_scrambler.ico" />
+    <None Include="res\data_scrambler.rc2" />
+    <CustomBuildStep Include="data_scramble.proto">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <None Include="res\simple_ai.bmp" />
+    <None Include="syntax\build.bat" />
+    <CustomBuild Include="syntax\ha_parser.l">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bison --define=$(ProjectDir)\syntax\ha_parser.tab.h -o$(ProjectDir)\syntax\ha_parser.tab.cpp -d $(ProjectDir)\syntax\ha_parser.y
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">bison --define=$(ProjectDir)\syntax\ha_parser.tab.h -o$(ProjectDir)\syntax\ha_parser.tab.cpp -d $(ProjectDir)\syntax\ha_parser.y
+</Command>
+    </CustomBuild>
+    <None Include="syntax\ha_parser.output" />
+    <None Include="syntax\ha_parser.y" />
+    <None Include="webkit\CMakeLists.txt" />
+    <None Include="webkit\README-TRANSFER.txt" />
+    <None Include="json\json_valueiterator.inl" />
+    <None Include="res\html_log.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="res\html_ove.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="welcome.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="data_scrambler.rc" />
+    <ResourceCompile Include="webkit\cefclient.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">true</ExcludedFromBuild>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="webkit\cefclient.exe.manifest" />
+    <Manifest Include="webkit\compatibility.manifest" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="data_scrambler.rc" _x007B_8856F961-340A-11D0-A96B-00C04FD705A2_x007D_="CWebBrowser2" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
