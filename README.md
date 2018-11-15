@@ -1,6 +1,8 @@
 # data_scrambler
  scramble data from the web page by simple clicks, get element in the web page very easy, can interact with scrapy.
 
+ Notice:
+ some important function is not open source, put in the library.
 
 Source code license is The GNU General Public License v3.0
 If use these code to commercial software, that need to get my permission.
