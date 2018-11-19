@@ -8,11 +8,16 @@ Source code license is The GNU General Public License v3.0
 If use these code to commercial software, that need to get my permission.
 
  publish on software site huajun:
+ 
  http://www.onlinedown.net/soft/730092.htm
+ 
+ ![ui](https://github.com/codereba/data_scrambler/images/ui.png)
+ 
  you can learn how to scramble complex structural webpages.
  
-scramble function is open source, same as publish in huajun, but some detail code is not public,
-if you like open source, or you want to develop a bussiness software,please contact data_scrambler team(contact information listed below) 
+ scramble function is open source, same as publish in huajun, but some detail code is not public,
+
+ if you like open source, or you want to develop a bussiness software,please contact data_scrambler team(contact information listed below) 
 
 project is work on visual studio 2008/2010/2015
 
