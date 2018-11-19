@@ -11,7 +11,7 @@ If use these code to commercial software, that need to get my permission.
  
  http://www.onlinedown.net/soft/730092.htm
  
- ![ui](https://github.com/codereba/data_scrambler/images/ui.png)
+ ![ui](https://github.com/codereba/data_scrambler/blob/master/images/ui.png)
  
  you can learn how to scramble complex structural webpages.
  
